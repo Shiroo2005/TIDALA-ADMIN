@@ -22,6 +22,10 @@ STOMP, lightbox):
 - axios with auth + single-flight refresh interceptors (`src/config/axios.ts`,
   same shape as the FE's)
 - react-hook-form + zod, sonner toasts, lucide icons, recharts (dashboard only)
+- **UI theme follows Tidala_FE**: design tokens in `src/shared/styles/variables.css` (copied from the
+  user FE — brand `#137fec`, navy text `#1a1d42`, slate surfaces, status pairs) mapped onto the shadcn
+  slots in `src/index.css`; Lexend body font; admin layout mirrors the FE's (white sidebar, Tidala logo
+  + gradient wordmark, brand active nav, gradient user card). Logo: `src/assets/Tidala_Logo.webp`.
 
 ## Run
 

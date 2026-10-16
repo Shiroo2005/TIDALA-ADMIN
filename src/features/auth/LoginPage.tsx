@@ -6,6 +6,7 @@ import { z } from "zod";
 import { Button } from "@/shared/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/shared/components/ui/card";
 import { Input } from "@/shared/components/ui/input";
+import tidalaLogo from "@/assets/Tidala_Logo.webp";
 import { getErrorMessage } from "@/shared/api/api-error";
 import { NotAdminError, useAuth } from "./AuthProvider";
 
@@ -31,10 +32,13 @@ function LoginPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-muted/40 p-4">
+    <div className="flex min-h-screen items-center justify-center bg-slate-50/50 p-4">
       <Card className="w-full max-w-sm">
-        <CardHeader>
-          <CardTitle className="text-xl">Tidala Admin</CardTitle>
+        <CardHeader className="items-center text-center">
+          <img src={tidalaLogo} alt="TIDALA" className="size-14 object-contain" />
+          <CardTitle className="bg-linear-to-br from-blue-700 via-blue-500 to-cyan-400 bg-clip-text text-2xl font-extrabold tracking-wide text-transparent">
+            TIDALA Admin
+          </CardTitle>
           <CardDescription>Đăng nhập bằng tài khoản có vai trò ADMIN.</CardDescription>
         </CardHeader>
         <CardContent>

@@ -28,7 +28,7 @@ function Dialog({ open, onClose, title, description, children, className }: Dial
   if (!open) return null;
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label={title}>
-      <button aria-hidden tabIndex={-1} className="absolute inset-0 bg-black/50" onClick={onClose} />
+      <button aria-hidden tabIndex={-1} className="absolute inset-0 bg-[#0f172a]/55" onClick={onClose} />
       <div className={cn("relative max-h-[90vh] w-full max-w-lg overflow-y-auto rounded-lg bg-background p-6 shadow-lg", className)}>
         <div className="mb-4 flex items-start justify-between gap-4">
           <div>

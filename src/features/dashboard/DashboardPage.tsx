@@ -53,8 +53,8 @@ function DashboardPage() {
                 <XAxis dataKey="month" />
                 <YAxis />
                 <Tooltip />
-                <Area type="monotone" dataKey="students" name="Học viên" stroke="#2563eb" fill="#93c5fd" />
-                <Area type="monotone" dataKey="teachers" name="Giáo viên" stroke="#059669" fill="#6ee7b7" />
+                <Area type="monotone" dataKey="students" name="Học viên" stroke="#137fec" fill="#ddefff" />
+                <Area type="monotone" dataKey="teachers" name="Giáo viên" stroke="#059669" fill="#a7f3d0" />
               </AreaChart>
             </ResponsiveContainer>
           </CardContent>
@@ -71,9 +71,9 @@ function DashboardPage() {
                 <XAxis dataKey="day" />
                 <YAxis />
                 <Tooltip />
-                <Bar dataKey="resolved" name="Resolved" fill="#2563eb" />
-                <Bar dataKey="banned" name="Banned" fill="#dc2626" />
-                <Bar dataKey="deleted" name="Deleted" fill="#f59e0b" />
+                <Bar dataKey="resolved" name="Resolved" fill="#137fec" />
+                <Bar dataKey="banned" name="Banned" fill="#ff4646" />
+                <Bar dataKey="deleted" name="Deleted" fill="#d4af37" />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>

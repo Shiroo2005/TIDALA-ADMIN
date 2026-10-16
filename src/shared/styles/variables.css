@@ -1,0 +1,41 @@
+/* Design tokens copied from Tidala_FE src/shared/styles/variables.css (2026-10-16).
+   Keep in sync with the user FE — this file is the Tidala brand source of truth. */
+:root {
+  /* Brand */
+  --token-color-primary: #137fec;
+  --token-color-primary-hover: #0f6ecf;
+  --token-color-primary-soft: #ddefff;
+
+  /* Neutral surfaces */
+  --token-color-bg: #ffffff;
+  --token-color-bg-muted: #f8fafc;
+  --token-color-surface: #f1f5f9;
+  --token-color-surface-strong: #e2e8f0;
+  --token-color-overlay: rgba(15, 23, 42, 0.55);
+
+  /* Borders */
+  --token-color-border: #c8cde0;
+  --token-color-border-strong: #94a3b8;
+
+  /* Typography */
+  --token-color-text: #1a1d42;
+  --token-color-text-secondary: #ffffff;
+  --token-color-text-muted: #64748b;
+  --token-color-text-disabled: #9ca3af;
+  --token-color-text-placeholder: #a8afcd;
+
+  /* Status */
+  --token-color-error: #ff4646;
+  --token-color-error-bg: #fff5f5;
+  --token-color-success: #059669;
+  --token-color-success-bg: #ecfdf5;
+  --token-color-warning: #d4af37;
+  --token-color-warning-bg: #fff7db;
+  --token-color-info: #137fec;
+  --token-color-info-bg: #ddefff;
+
+  /* Motion */
+  --token-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --token-duration-fast: 120ms;
+  --token-duration-normal: 220ms;
+}
